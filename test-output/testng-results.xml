@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10732" started-at="2017-08-10T14:40:26Z" finished-at="2017-08-10T14:40:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10732" started-at="2017-08-10T14:40:26Z" finished-at="2017-08-10T14:40:37Z">
+      <class name="destinationPride.Main">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:destinationPride.Main@4c70fda8]" name="beforeMethod" is-config="true" duration-ms="2824" started-at="2017-08-10T10:40:26Z" finished-at="2017-08-10T10:40:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="URL()[pri:0, instance:destinationPride.Main@4c70fda8]" name="URL" duration-ms="3194" started-at="2017-08-10T10:40:29Z" description="Correct URl" finished-at="2017-08-10T10:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- URL -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:destinationPride.Main@4c70fda8]" name="afterMethod" is-config="true" duration-ms="1550" started-at="2017-08-10T10:40:32Z" finished-at="2017-08-10T10:40:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:destinationPride.Main@4c70fda8]" name="beforeMethod" is-config="true" duration-ms="2207" started-at="2017-08-10T10:40:34Z" finished-at="2017-08-10T10:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="links()[pri:0, instance:destinationPride.Main@4c70fda8]" name="links" duration-ms="2" started-at="2017-08-10T10:40:36Z" finished-at="2017-08-10T10:40:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- links -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:destinationPride.Main@4c70fda8]" name="afterMethod" is-config="true" duration-ms="932" started-at="2017-08-10T10:40:36Z" finished-at="2017-08-10T10:40:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- destinationPride.Main -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
