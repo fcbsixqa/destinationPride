@@ -27,14 +27,13 @@ public class Main {
 			  }
 			  else {
 				  System.out.println("wrong Url" + driver.getTitle());		
-			  } */
+			  }*/
   }
   
   @Test 
   public void links() {
 	  
-	  
-  }
+	    }
   
   
   @BeforeMethod
