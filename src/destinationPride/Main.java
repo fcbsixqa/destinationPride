@@ -40,7 +40,7 @@ public class Main {
 	  
 }
    
-  // Main page links ****************************************************************************
+  // Main page links tests ****************************************************************************
   
   
   @Test (priority = 5)
@@ -74,6 +74,10 @@ public class Main {
 	  assertEquals(driver.getTitle(), "Destination Pride - Data-driven LGBTQ+ scores for every city, every country on earth.");
 	  	  
 	  	    }
+  
+  //
+  
+  
   
   
   // TextBox functionality ********************************************************************* 
