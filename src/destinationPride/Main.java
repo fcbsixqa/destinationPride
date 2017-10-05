@@ -26,6 +26,8 @@ public class Main {
 	WebDriver driver; 
 	     
 	
+	// Tests **************************************************************************************
+	
 	
 	
   @Test (priority= 0, description= "Main Page Load")
@@ -33,27 +35,17 @@ public class Main {
 	  
 	driver.get("https://qa.destinationpride.org/app_qa.php/");
 
-	//   driver.manage().window().maximize();
-	   // to maximize window
+	assertEquals(driver.getTitle(), "Destination Pride - Data-driven LGBTQ+ scores for every city, every country on earth.");
 	   
-	   assertEquals(driver.getTitle(), "Destination Pride - Data-driven LGBTQ+ scores for every city, every country on earth.");
-	   
-	  /* if (driver.getTitle().contains("Destination Pride - Data-driven LGBTQ+ scores for every city, every country on earth.")){
-				  System.out.println("pass");
-			  }
-			  else {
-				  System.out.println("wrong Url" + driver.getTitle());		
-			  }*/
-
-
+	  
 }
    
-  // Main page links
+  // Main page links ****************************************************************************
   
   
   @Test (priority = 5)
   public void projectPageLink() {
-	  driver.findElement(By.linkText("The Project")).click();
+	  MainPage.linkProject(driver).click();
 	  
 	  assertEquals(driver.getTitle(), "The Project | Destination Pride");
 	  	  
@@ -61,7 +53,7 @@ public class Main {
   
   @Test (priority = 2)
   public void aboutPageLink() {
-	  driver.findElement(By.linkText("About PFLAG")).click();
+	  MainPage.linkAboutP(driver).click();
 	  
 	  assertEquals(driver.getTitle(), "About PFLAG Canada | Destination Pride");
 	  	  
@@ -84,6 +76,8 @@ public class Main {
 	  	    }
   
   
+  // TextBox functionality ************************************************************************** 
+  
   
   @Test (priority = 1)
   public void inputField() throws InterruptedException {
@@ -91,7 +85,7 @@ public class Main {
 	  MainPage.searchMain(driver).sendKeys("Toronto, Ontario");
 	  Thread.sleep(1000);
 	
-	  driver.findElement(By.id("search")).click();
+	  MainPage.searchArrow(driver).click();
 	  Thread.sleep(1000);
 	  WebDriverWait wait = new WebDriverWait(driver,20);
 	  WebElement detail;
@@ -99,6 +93,13 @@ public class Main {
 	  assertEquals(driver.findElement(By.className("detail-title")).getText(), "Toronto, Canada");
 	  
 	  	    }
+  
+  
+  
+  
+  
+//settings *********************************************************************************************
+  
   
   @BeforeClass
   public void beforeMethod() {
@@ -108,7 +109,7 @@ public class Main {
 	 driver.get("https://qa.destinationpride.org/app_qa.php/");
 
 	   driver.manage().window().maximize();
-	   // to be able to use Crime browser
+	  
 
 	      
 	

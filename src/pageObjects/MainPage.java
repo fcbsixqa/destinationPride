@@ -10,6 +10,14 @@ public class MainPage {
 	
     private static WebElement element = null;
     
+    
+    
+    
+ 
+    
+    
+
+    
     //Links *****************************************************
     
     public static WebElement topLogo(WebDriver driver) {
@@ -26,6 +34,23 @@ public static WebElement linkFaq(WebDriver driver) {
     	return element;
     }
     
+
+public static WebElement linkAboutP(WebDriver driver) {
+	
+	element = driver.findElement(By.linkText("About PFLAG"));
+	
+	return element;
+}
+
+public static WebElement linkProject(WebDriver driver) {
+	
+	element = driver.findElement(By.linkText("The Project"));
+	
+	return element;
+}
+
+
+
   
     
     
@@ -39,5 +64,12 @@ public static WebElement searchMain(WebDriver driver) {
     	return element;
     }
     
+public static WebElement searchArrow(WebDriver driver) {
+	
+	element = driver.findElement(By.id("search"));
+	
+	return element;
+}
+
     
 }
