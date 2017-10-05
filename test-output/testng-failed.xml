@@ -6,7 +6,7 @@
       <class name="destinationPride.Main">
         <methods>
           <include name="afterMethod"/>
-          <include name="f"/>
+          <include name="mainLogoLink"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- destinationPride.Main -->
