@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16330" started-at="2017-10-05T15:04:40Z" finished-at="2017-10-05T15:04:56Z">
+  <suite name="Default suite" duration-ms="17895" started-at="2017-10-05T21:04:59Z" finished-at="2017-10-05T21:05:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16330" started-at="2017-10-05T15:04:40Z" finished-at="2017-10-05T15:04:56Z">
+    <test name="Default test" duration-ms="17895" started-at="2017-10-05T21:04:59Z" finished-at="2017-10-05T21:05:16Z">
       <class name="destinationPride.Main">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:destinationPride.Main@4c70fda8]" name="beforeMethod" is-config="true" duration-ms="6718" started-at="2017-10-05T11:04:40Z" finished-at="2017-10-05T11:04:47Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:destinationPride.Main@14acaea5]" name="beforeMethod" is-config="true" duration-ms="6082" started-at="2017-10-05T17:04:59Z" finished-at="2017-10-05T17:05:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="mainsPageLoad()[pri:0, instance:destinationPride.Main@4c70fda8]" name="mainsPageLoad" duration-ms="1244" started-at="2017-10-05T11:04:47Z" description="Main Page Load" finished-at="2017-10-05T11:04:48Z">
+        <test-method status="PASS" signature="mainsPageLoad()[pri:0, instance:destinationPride.Main@14acaea5]" name="mainsPageLoad" duration-ms="1182" started-at="2017-10-05T17:05:05Z" description="Main Page Load" finished-at="2017-10-05T17:05:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainsPageLoad -->
-        <test-method status="PASS" signature="inputField()[pri:1, instance:destinationPride.Main@4c70fda8]" name="inputField" duration-ms="2602" started-at="2017-10-05T11:04:48Z" finished-at="2017-10-05T11:04:50Z">
+        <test-method status="PASS" signature="inputField()[pri:1, instance:destinationPride.Main@14acaea5]" name="inputField" duration-ms="2571" started-at="2017-10-05T17:05:06Z" finished-at="2017-10-05T17:05:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- inputField -->
-        <test-method status="PASS" signature="aboutPageLink()[pri:2, instance:destinationPride.Main@4c70fda8]" name="aboutPageLink" duration-ms="749" started-at="2017-10-05T11:04:50Z" finished-at="2017-10-05T11:04:51Z">
+        <test-method status="PASS" signature="aboutPageLink()[pri:2, instance:destinationPride.Main@14acaea5]" name="aboutPageLink" duration-ms="581" started-at="2017-10-05T17:05:08Z" finished-at="2017-10-05T17:05:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutPageLink -->
-        <test-method status="PASS" signature="faqtPageLink()[pri:3, instance:destinationPride.Main@4c70fda8]" name="faqtPageLink" duration-ms="1015" started-at="2017-10-05T11:04:51Z" finished-at="2017-10-05T11:04:52Z">
+        <test-method status="PASS" signature="faqtPageLink()[pri:3, instance:destinationPride.Main@14acaea5]" name="faqtPageLink" duration-ms="2740" started-at="2017-10-05T17:05:09Z" finished-at="2017-10-05T17:05:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- faqtPageLink -->
-        <test-method status="PASS" signature="mainLogoLink()[pri:4, instance:destinationPride.Main@4c70fda8]" name="mainLogoLink" duration-ms="1030" started-at="2017-10-05T11:04:52Z" finished-at="2017-10-05T11:04:53Z">
+        <test-method status="PASS" signature="mainLogoLink()[pri:4, instance:destinationPride.Main@14acaea5]" name="mainLogoLink" duration-ms="1158" started-at="2017-10-05T17:05:12Z" finished-at="2017-10-05T17:05:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainLogoLink -->
-        <test-method status="PASS" signature="projectPageLink()[pri:5, instance:destinationPride.Main@4c70fda8]" name="projectPageLink" duration-ms="1565" started-at="2017-10-05T11:04:53Z" finished-at="2017-10-05T11:04:55Z">
+        <test-method status="PASS" signature="projectPageLink()[pri:5, instance:destinationPride.Main@14acaea5]" name="projectPageLink" duration-ms="2359" started-at="2017-10-05T17:05:13Z" finished-at="2017-10-05T17:05:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- projectPageLink -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:destinationPride.Main@4c70fda8]" name="afterMethod" is-config="true" duration-ms="1339" started-at="2017-10-05T11:04:55Z" finished-at="2017-10-05T11:04:56Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:destinationPride.Main@14acaea5]" name="afterMethod" is-config="true" duration-ms="1179" started-at="2017-10-05T17:05:15Z" finished-at="2017-10-05T17:05:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
